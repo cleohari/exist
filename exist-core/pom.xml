@@ -338,7 +338,7 @@
         <dependency>
             <groupId>xalan</groupId>
             <artifactId>xalan</artifactId>
-            <version>2.7.2</version> <!-- needed an compile time for various dependencies -->
+            <version>2.7.3</version> <!-- needed an compile time for various dependencies -->
         </dependency>
 
         <dependency>
@@ -1133,7 +1133,7 @@ The BaseX Team. The original license statement is also included below.]]></pream
                             </dependency>
                         </dependencies>
                         <configuration>
-                            <forkNode implementation="org.apache.maven.plugin.surefire.extensions.SurefireForkNodeFactory" />
+                            <forkNode implementation="org.apache.maven.plugin.surefire.extensions.SurefireForkNodeFactory"/>
                             <forkCount>1C</forkCount>
                             <reuseForks>false</reuseForks>
                             <argLine>-Dfile.encoding=${project.build.sourceEncoding}</argLine>
