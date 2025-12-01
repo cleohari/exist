@@ -151,7 +151,7 @@
         <dependency>
             <groupId>org.lz4</groupId>
             <artifactId>lz4-java</artifactId>
-            <version>1.8.0</version>
+            <version>1.8.1</version>
         </dependency>
 
         <dependency>
@@ -1133,7 +1133,7 @@ The BaseX Team. The original license statement is also included below.]]></pream
                             </dependency>
                         </dependencies>
                         <configuration>
-                            <forkNode implementation="org.apache.maven.plugin.surefire.extensions.SurefireForkNodeFactory" />
+                            <forkNode implementation="org.apache.maven.plugin.surefire.extensions.SurefireForkNodeFactory"/>
                             <forkCount>1C</forkCount>
                             <reuseForks>false</reuseForks>
                             <argLine>-Dfile.encoding=${project.build.sourceEncoding}</argLine>
